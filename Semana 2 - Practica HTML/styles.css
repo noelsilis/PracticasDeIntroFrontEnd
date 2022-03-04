@@ -122,17 +122,45 @@ img.navbar-brand{
 }
 
 
-#fila-pasteles .titulo{
+.titulo{
   text-align: center;
 }
 
-#fila-pasteles .titulo h1{
+.titulo h1{
   padding-top: 80px;
   padding-bottom: 80px;
   font-family: 'Elsie', cursive;
   font-weight: 900;
   letter-spacing: 10px;
   color: #af9c72;
+}
+
+#fila-nosotros .row h4{
+  font-family: 'Elsie', cursive;
+  font-weight: 400;
+  color:#867857;
+}
+
+#fila-nosotros .row h5{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #e7cb8f;
+}
+
+#fila-nosotros .row .col-sm-5 img{
+  height: 250px;
+}
+
+
+@media only screen and (max-width: 575px) {
+  #fila-nosotros .row .col-sm-5 img{
+    padding-bottom: 20px;
+  }
+
+  #fila-nosotros .row h4, h5{
+    text-align: center;
+  }
 }
 
 #fila-pasteles .row .col-sm-4{
