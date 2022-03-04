@@ -30,7 +30,7 @@ nav{
   background-image: linear-gradient(to right, #e7cb8f, #dee78f );
 }
 .navbar-light a{
-  color: #a3a3a3 !important;
+  color: #ffffff !important;
 }
 .navbar .nav-link.active{
   font-weight: 800;
@@ -49,10 +49,17 @@ img.navbar-brand{
 }
 
 #fila-inicio{
+  background-image:  linear-gradient(to top, #635a4bb7, #5c5f3fa6), url(img/fondo.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fila-inicio{
   font-family: 'Elsie', cursive;
   font-weight: 400;
   background-color: #e7cb8f;
-  height: 400px;
+  height: 500px;
 }
 
 .wave{
@@ -61,7 +68,7 @@ img.navbar-brand{
 }
 
 #fila-inicio .logo{
-  margin-top: 170px;
+  margin-top: 180px;
   text-align: center;
 }
 #fila-inicio .logo h4{
@@ -92,6 +99,9 @@ img.navbar-brand{
 
 @media only screen and (max-width: 516px) {
   /* For mobile phones: */
+  #fila-inicio{
+    background-position: center;
+  }
   #fila-inicio .logo h4{
     font-size: 12px;
     letter-spacing: 4px;
@@ -121,8 +131,8 @@ img.navbar-brand{
   padding-bottom: 80px;
   font-family: 'Elsie', cursive;
   font-weight: 900;
-  letter-spacing: 5px;
-  color: #3a3a3a;
+  letter-spacing: 10px;
+  color: #af9c72;
 }
 
 #fila-pasteles .row .col-sm-4{
@@ -142,3 +152,59 @@ img.navbar-brand{
   color: #ad996c;
 }
 
+
+footer{
+  background-color: #ffebbe;
+  color: #af9c72;
+}
+
+footer h1{
+  font-family: 'Elsie', cursive;
+  font-weight: 400;
+}
+
+footer p, a{
+  font-family: 'Caveat', cursive; 
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.align-icons {
+  display: flex;
+  text-decoration: none;
+  color: #af9c72;
+}
+
+.align-icons:hover{
+  color:#867857;
+}
+
+.align-icons span {
+  margin-left: 10px;
+}
+
+.logo-footer{
+  filter: contrast(70%);
+  max-height: 60px;
+  min-height: 30px;
+}
+
+footer .derechos{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ddc591;
+  color:#867857;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer{
+    text-align: center;
+  }
+
+  .align-icons{
+    display: flow-root;
+  }
+}
