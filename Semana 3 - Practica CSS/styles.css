@@ -1,0 +1,133 @@
+/*
+PALETA DE COLORES
+
+Morado #306add
+Azul #1f3e72 //Color de titulos
+Azul #108fe4 //Background imagenes degradado con morado
+Gris #6d7b93 //Color de links navbar y texto general
+Gris #ebf2fe //Background de los iconos
+Gris #e5e4f5 //Logos vacunas Covid
+
+*/
+
+/*
+  Tipografias disponibles
+  
+  font-family: 'Inter', sans-serif;
+  Thin 100
+  Extra-light 200
+  Light 300
+  Regular 400
+  Bold 700
+  Extra-bold 800
+  
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  color: #6d7b93;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+nav .navbar-brand {
+  color: #306add !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #6d7b93 !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.box{
+  position: relative;
+  z-index: 2;
+  top: -150px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.box{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  max-width: 70%;
+  /* max-height: 80%; */
+  padding: 20px 40px;
+}
+
+.box h5{
+  color: #1f3e72;
+  font-weight: 700;
+  margin-left: 35px;
+}
+
+.box .my-btn{
+  padding: 15px 27px 15px 27px;
+  background-color: #306add;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+
+
+#titulo {
+  padding-top: 150px;
+  padding-inline: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #1f3e72;
+}
+
+#titulo h5 {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+#titulo span, h4{
+  color: #1f3e72;
+}
+
+#titulo h4{
+  font-weight: 700;
+}
+
+#imagen-1 {
+  background-image: linear-gradient(to left, #306add, #108fe4);
+  padding-top: 100px;
+}
+
+.align-icons-1 i{
+  padding: 5px;
+  background-color: #ebf2fe;
+  color: #306add;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.align-icons-2 i{
+  padding: 5px;
+  background-color: #feffca;
+  color: #ffe710;
+  margin-right: 10px;
+  border-radius: 3px;
+}
