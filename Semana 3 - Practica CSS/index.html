@@ -30,24 +30,26 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Regulations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hoax Buster</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                <spa>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link pe-5" aria-current="page" href="#">Database</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-5" href="#">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-5" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-5" href="#">Regulations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="my-btn" href="#">Hoax Buster</a>
+                        </li>
+                    </ul>
+                </spa>
             </div>
         </div>
     </nav>
@@ -56,8 +58,9 @@
             <div class="col-lg-6">
                 <div id="titulo">
                     <h1>Fight Virus<br> With Vaccines</h1>
-                    <h5>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and ypur family
-                        get infected</h5>
+                    <span id="cuerpo-texto">Let's stop this pandemic by killing the virus with a vaccine, don't let
+                        yourself and ypur family
+                        get infected</span>
                     <div class="row pt-3 pb-5">
                         <div class="col">
                             <div class="align-icons-2">
@@ -70,7 +73,10 @@
                             </div>
                         </div>
                     </div>
-                    <h4>Schedule your vaccinations</h4>
+                    <div class="align-icons-1 align-middle">
+                        <i class="bi bi-clock-fill shadow-sm"></i>
+                        <h4 class="ms-1 d-none d-sm-inline">Schedule your vaccinations</h4>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6" id="imagen-1">
@@ -102,6 +108,59 @@
                     </div>
                     <div class="col my-auto text-end">
                         <a class="my-btn" href="#">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="seccion-2">
+        <div class="container">
+            <div class="row">
+                <div class="col pb-3 px-5 m-auto"><img src="img/astrazeneca-logo.png" class="img-fluid"></div>
+                <div class="col p-5 m-auto"><img src="img/sinovac-logo.png" class="img-fluid"></div>
+                <div class="col p-5 m-auto"><img src="img/pfizer-logo.png" class="img-fluid"></div>
+                <div class="col p-5 m-auto"><img src="img/moderna-logo.png" class="img-fluid"></div>
+            </div>
+            <div class="row py-5">
+                <div class="col py-5">
+                    <div class="titulo">
+                        <h1 class="pb-2">Why should I vaccine?</h1>
+                        <span id="cuerpo-texto">In order to avoid any doubts about getting the COVID-19 vaccine,
+                            identify the following 4 befefits of COVID-19 vaccination:
+                        </span>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="benefits-box py-4 px-4 shadow-sm mb-5">
+                        <p class="align-icons-1 py-2"><i class="fs-3 bi-ui-radios-grid px-3 py-2"></i></p>
+                        <h5 class="pb-2">Minimize the spread of viruses</h5>
+                        <span>
+                            Vaccine has been proven effective to prevent someone from getting infected with Coronavirus.
+                        </span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="benefits-box py-4 px-4 shadow-sm mb-5">
+                        <p class="align-icons-1 py-2"><i class="fs-3 bi-shield-fill-check px-3 py-2"></i></p>
+                        <h5 class="pb-2">Forming antibodies</h5>
+                        <span>COVID-19 vaccine proven to help shape antibody response for immune system.</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="benefits-box py-4 px-4 shadow-sm mb-5">
+                        <p class="align-icons-1 py-2"><i class="fs-3 bi-people-fill px-3 py-2"></i></p>
+                        <h5 class="pb-2">Protecting people nearby</h5>
+                        <span>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us.</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="benefits-box py-4 px-4 shadow-sm mb-5">
+                        <p class="align-icons-1 py-2"><i class="fs-3 bi-diagram-3-fill px-3 py-2"></i></p>
+                        <h5 class="pb-2">Crating group immunity</h5>
+                        <span>COVID-19 vaccination is also beneficial for creating group inmmunity por head inmmunity.</span>
                     </div>
                 </div>
             </div>

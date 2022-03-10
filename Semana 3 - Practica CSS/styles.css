@@ -37,7 +37,7 @@ nav {
 
 nav .navbar-brand {
   color: #306add !important;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 2px;
 }
 
@@ -47,7 +47,7 @@ nav a {
   font-size: 14px;
 }
 
-.box{
+.box {
   position: relative;
   z-index: 2;
   top: -150px;
@@ -55,7 +55,7 @@ nav a {
 }
 
 
-.box{
+.box {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   line-height: 1;
@@ -66,17 +66,17 @@ nav a {
   padding: 20px 40px;
 }
 
-.box h5{
+.box h5 {
   color: #1f3e72;
   font-weight: 700;
   margin-left: 35px;
 }
 
-.box .my-btn{
+.my-btn {
   padding: 15px 27px 15px 27px;
   background-color: #306add;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.2);
@@ -92,42 +92,72 @@ nav a {
   align-items: center;
 }
 
-#titulo h1 {
-  font-weight: 700;
-  font-size: 60px;
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #1f3e72;
+  font-weight: 700;
 }
 
-#titulo h5 {
+#titulo h1 {
+  font-size: 60px;
+}
+
+#cuerpo-texto {
   line-height: 30px;
   letter-spacing: 2px;
+  font-size: 17px;
 }
 
-#titulo span, h4{
-  color: #1f3e72;
-}
-
-#titulo h4{
-  font-weight: 700;
-}
 
 #imagen-1 {
   background-image: linear-gradient(to left, #306add, #108fe4);
   padding-top: 100px;
 }
 
-.align-icons-1 i{
-  padding: 5px;
+/* .align-icons-1{
+  display: flex;
+} */
+
+.align-icons-1 i {
+  padding: 5px 8px;
   background-color: #ebf2fe;
   color: #306add;
+  margin-right: 10px;
+  border-radius: 6px;
+  /* box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.align-icons-2 i {
+  padding: 5px 8px;
+  background-color: #feffe0;
+  color: #ffe710;
   margin-right: 10px;
   border-radius: 3px;
 }
 
-.align-icons-2 i{
-  padding: 5px;
-  background-color: #feffca;
-  color: #ffe710;
-  margin-right: 10px;
-  border-radius: 3px;
+#seccion-2 img {
+  filter: grayscale(1) opacity(15%);
+  transition: 0.5s;
+}
+
+#seccion-2 img:hover {
+  filter: grayscale(0.0) opacity(100%);
+}
+
+.benefits-box{
+  border-radius: 10px;
+  /* max-height: 28rem; */
+  height: 300px;
+  transition: 0.5s;
+}
+
+.benefits-box i{
+  transition: 0.5s;
+}
+
+.benefits-box:hover, .benefits-box i:hover{
+  box-shadow: 0px 30px 30px 0px #306add20 !important;
 }
