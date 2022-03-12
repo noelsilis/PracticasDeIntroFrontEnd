@@ -83,6 +83,22 @@ nav a {
   text-decoration: none;
 }
 
+.my-btn-contact {
+  padding: 12px 25px 12px 25px;
+  background-color: #ebf2fe;
+  text-align: center;
+  color: #306add;
+  font-weight: 700;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.my-btn-contact:hover {
+  background-color: #306add;
+  color: #ffffff;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.2);
+}
 
 
 #titulo {
@@ -122,17 +138,44 @@ h5 {
   height: 350px;
 }
 
-.bg-white-1{
+#imagen-3 {
+  background-image: linear-gradient(to left, #306add, #108fe4);
+  height: 400px;
+}
+
+.bg-white-1 {
   margin-top: 250px;
   width: 100%;
   background-color: red;
 }
 
-#seccion-3 img{
+#seccion-3 img {
   position: relative;
   z-index: 3;
   top: -200px;
 }
+
+#seccion-4 img {
+  position: relative;
+  z-index: 2;
+  top: -250px;
+}
+
+#seccion-4 .contact {
+  color: #1f3e72;
+  font-size: 19px;
+  line-height: 10px;
+}
+
+.box-contact {
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.box-contact:hover {
+  box-shadow: 0px 30px 30px 0px #306add20 !important;
+}
+
 /* .align-icons-1{
   display: flex;
 } */
@@ -179,11 +222,12 @@ h5 {
   box-shadow: 0px 30px 30px 0px #306add20 !important;
 }
 
-#seccion-3{
+#seccion-3,
+#seccion-4 {
   padding-top: 100px;
 }
 
-.accordion-title{
+.accordion-title {
   color: #1f3e72;
 }
 
@@ -203,4 +247,8 @@ a {
 
 footer a:hover {
   color: #306add;
+}
+
+small {
+  font-size: 10px;
 }
