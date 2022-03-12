@@ -35,10 +35,10 @@ nav {
   -webkit-backdrop-filter: blur(10px);
 }
 
-nav .navbar-brand {
+.navbar-brand {
   color: #306add !important;
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 nav a {
@@ -107,7 +107,7 @@ h5 {
 
 #cuerpo-texto {
   line-height: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   font-size: 17px;
 }
 
@@ -117,6 +117,22 @@ h5 {
   padding-top: 100px;
 }
 
+#imagen-2 {
+  background-image: linear-gradient(to left, #306add, #108fe4);
+  height: 350px;
+}
+
+.bg-white-1{
+  margin-top: 250px;
+  width: 100%;
+  background-color: red;
+}
+
+#seccion-3 img{
+  position: relative;
+  z-index: 3;
+  top: -200px;
+}
 /* .align-icons-1{
   display: flex;
 } */
@@ -147,17 +163,44 @@ h5 {
   filter: grayscale(0.0) opacity(100%);
 }
 
-.benefits-box{
+.benefits-box {
   border-radius: 10px;
   /* max-height: 28rem; */
   height: 300px;
   transition: 0.5s;
 }
 
-.benefits-box i{
+.benefits-box i {
   transition: 0.5s;
 }
 
-.benefits-box:hover, .benefits-box i:hover{
+.benefits-box:hover,
+.benefits-box i:hover {
   box-shadow: 0px 30px 30px 0px #306add20 !important;
+}
+
+#seccion-3{
+  padding-top: 100px;
+}
+
+.accordion-title{
+  color: #1f3e72;
+}
+
+footer {
+  background-color: #ebf2fe;
+}
+
+footer a {
+  text-decoration: none;
+  color: #6d7b93;
+}
+
+footer span,
+a {
+  font-size: 13px;
+}
+
+footer a:hover {
+  color: #306add;
 }
