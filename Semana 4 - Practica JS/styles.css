@@ -67,7 +67,7 @@ label {
 }
 
 #pokeImg {
-    max-height: 250px !important;
+    border-radius: 100%;
 }
 
 #pokemon-name {
@@ -78,6 +78,16 @@ label {
 .btn-primary {
     background-color: #3569bb !important;
     border-radius: 50px !important;
+}
+
+.estadisticas{
+    background-color: #032d29;
+    border-radius: 12px;
+}
+
+.desc-datos{
+    color: #def12e;
+    font-weight: 800;
 }
 
 .linea-2,
